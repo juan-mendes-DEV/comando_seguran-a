@@ -1,0 +1,44 @@
+.cards_rotate{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+    
+    .card,.card_one,.card_two{
+        opacity: 0;
+        margin-left: 220vh;
+        transition:ease-in-out 1s;
+        font-size: 12px;
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: rgb(255, 114, 114);
+            transition: 0.5s;
+            &:hover{
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.cards_rotate > .card{
+        width: 100%;
+        max-width: 350px;
+}
+.card{
+
+    .card-img-top{
+        width: 350px;
+        height: 200px;
+    }
+}
+.title_cards{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    opacity: 0;
+    transition: ease-in-out 1s;
+}

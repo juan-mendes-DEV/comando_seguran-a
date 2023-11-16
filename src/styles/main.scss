@@ -1,0 +1,349 @@
+@import 'film';
+@import 'reset';
+@import 'tema_dark';
+@import 'tema_light';
+@import 'temaNormal';
+@import 'card';
+@import 'swiper';
+@import 'footer';
+@import 'contato';
+.menu{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+    
+    &_title{
+        color: white;
+    }
+    &_navigation{
+        display: flex;
+        align-items: center;
+    }
+    &_item{
+        list-style: none;
+        margin-right: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+    &_list{
+        display: flex;
+    }
+    .btn_menu{
+        border: none;
+        padding: 7px;
+        border-radius: 10px;
+        
+        transition:ease-in-out 0.5s;  
+    }
+}
+.logo{
+    width: 60px;
+    margin-right: 1em;
+    transition: ease-in-out 0.8s;
+    border-radius: 5px;
+    
+}
+.log{
+    display: flex;
+    align-items: center;
+}
+
+
+.card__sobre{
+    display: flex;
+    margin-left: 200vh;
+    opacity: 0;
+    transition: ease-in-out 2s;
+}
+.card_sobre{
+    width: 100%;
+    max-width: 140vh;
+
+    //margin: 0 auto;
+   
+}
+.card__sobre{
+    .card_sobre{
+        .card-title{
+                margin-bottom: 0.5em;
+        }
+    }
+}
+
+.redirecionamento_text{
+    text-align: center;
+    margin-top: 4em;
+    margin: 0 auto;
+    max-width: 140vh;
+    display: grid; 
+    .redirecionamento_text_fundo{
+        font-size: 4rem;
+        line-height:5rem;
+        font-weight: 800;
+        text-align: center;
+        color: transparent;
+        background-image: url(../../dist/images/fundo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-clip: text;
+        
+        
+    }
+    .redirecionamento_link{
+        text-decoration: none;
+        max-width: 25em;
+        margin: 0 auto;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        background-image: url(../../dist/images/fundo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 1em;
+        font-size: 2em;
+        color: white;
+        
+        border-radius: 20px;
+        transition: ease-in-out 1s;
+        &:hover{
+            transform: rotate(360deg) scale(1.5);
+        }
+    }
+}
+
+/* Estilos para telas com largura de 300px até 699px */
+@media only screen and (min-width: 300px) and (max-width: 699px) {
+    .menu{
+        width: 100%;
+        max-width: 40vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    
+        &_list{
+            flex-wrap: wrap;
+        }
+        &_title{
+            color: white;
+        }
+        &_navigation{
+            display: flex;
+            
+            align-items: center;
+        }
+        &_item{
+            list-style: none;
+            margin-right: 10px;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+
+.cards_rotate > .card{
+    width: 100%;
+    max-width: 250px;
+    margin-top: 3em;
+}
+.card{
+
+.card-img-top{
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+}
+}
+.title_cards{
+margin-top: 2em;
+margin-bottom: 2em;
+font-size: 15px;
+text-align: center;
+opacity: 0;
+transition: ease-in-out 1s;
+}
+.fundo{
+    background-image: url(../../dist/images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 40vh;
+    margin: 0 auto;
+    padding-top: 1vh;
+}
+.card__sobre{
+    display: flex;
+    margin-left: 200vh;
+    opacity: 0;
+    transition: ease-in-out 2s;
+}
+.card_sobre{
+    width: 100%;
+    max-width: 140vh;
+
+    //margin: 0 auto;
+   
+}
+.card__sobre{
+    .card_sobre{
+        .card-title{
+                margin-bottom: 0.5em;
+        }
+    }
+}
+
+.film{
+    width: 100%;
+    max-width: 40vh;
+    height: 130vh;
+    margin: 0 auto;
+    border: none;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+ &_video{
+   width: 100%;
+    max-width: 200vh;
+    height: 90vh;
+    margin: 0 auto;
+    opacity: 0.5;
+ }
+.film_title{
+   transition: 1s;
+   padding-top: 10px;
+   padding-left: 10px;
+ }
+ &_text{
+   position: absolute;
+   top: 0;
+   color: white;
+   
+   .lateral{
+      display: flex;
+          
+   }
+   .btn_film{
+    margin-left: 1em;
+    
+   }
+   &_resum{
+      
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: start;
+      font-size: 15px;
+      transition: 1s;
+      display: flex;
+      flex-wrap: wrap;
+   }
+ }
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 40vh;
+    
+    .foter_mais{
+        display: flex;
+        align-items: center;
+        
+
+    }
+}
+
+
+footer{
+    height: 100%;
+    max-height: 110vh;
+    max-width: 40vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70em;
+    p{
+        font-size: 5px;
+        text-align: center;
+        color: black;
+        .dev{
+            text-decoration: none;   
+            cursor: pointer;
+            color: white;
+            transition: ease 1s;
+            &:hover{
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.logos_imgs{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    .foter_log{
+        max-width:100% ;
+        width: 40vh;
+        p{  
+
+            color: black;
+            margin-left: 0.7em;
+            font-size: 25px;
+            
+        }
+        h2{
+            color: black;
+            margin-top: 1em;   
+            margin-left: 0.5em;
+        }
+        .div_log{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2em;
+        
+        h3{
+            color: black;
+            margin-top: 0.5em;
+        }
+        
+        .logo{
+            width: 50px;
+            margin-top: 1em;
+            margin-left: 1em;
+            
+        }
+        }
+        
+        
+    }
+    a{
+        
+        margin-right: 1em;
+    }
+
+    img{
+        width: 30px;
+        margin-left: 1em;
+    }
+    
+    
+}
+}
+
+/* Estilos para telas com largura de 700px em diante */
+@media only screen and (min-width: 700px) {
+    
+}

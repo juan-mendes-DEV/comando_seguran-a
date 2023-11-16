@@ -1,0 +1,48 @@
+
+.film{
+    width: 100%;
+    max-width: 200vh;
+    height: 80vh;
+    margin: 0 auto;
+    border: none;
+    
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+ &_video{
+   width: 100%;
+    max-width: 200vh;
+    height: 80vh;
+    margin: 0 auto;
+    opacity: 0.5;
+ }
+.film_title{
+   transition: 1s;
+   padding-top: 10px;
+   padding-left: 10px;
+ }
+ &_text{
+   position: absolute;
+   top: 0;
+   color: white;
+   .lateral{
+      display: flex;
+          
+   }
+   .btn_film{
+    margin-left: 1em;
+    
+   }
+   &_resum{
+      
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: start;
+      font-size: 15px;
+      transition: 1s;
+      display: flex;
+      flex-wrap: wrap;
+   }
+ }
+}

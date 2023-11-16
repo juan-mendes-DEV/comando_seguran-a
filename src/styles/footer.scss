@@ -1,0 +1,85 @@
+
+footer{
+    height: 25em;
+    max-height: 100%;
+    p{
+        padding-top: 2em;
+        text-align: center;
+        color: black;
+        .dev{
+            text-decoration: none;   
+            cursor: pointer;
+            color: white;
+            transition: ease 1s;
+            &:hover{
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    .foter_mais{
+        display: flex;
+        align-items: center;
+        
+
+    }
+}
+.logos_imgs{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    .foter_log{
+        p{  
+
+            color: black;
+            margin-left: 0.7em;
+            font-size: 25px;
+            
+        }
+        h2{
+            color: black;
+            margin-top: 1em;   
+            margin-left: 0.5em;
+        }
+        .div_log{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2em;
+        
+        h3{
+            color: black;
+            margin-top: 0.5em;
+        }
+        
+        .logo{
+            width: 50px;
+            margin-top: 1em;
+            margin-left: 1em;
+            
+        }
+        }
+        
+        
+    }
+    a{
+        
+        margin-right: 1em;
+    }
+
+    img{
+        width: 30px;
+        margin-left: 1em;
+    }
+    
+    
+}
+
+
