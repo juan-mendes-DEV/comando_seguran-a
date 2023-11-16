@@ -10,8 +10,8 @@ body{
     transition: 0.5s;
     &:hover{
         background-color: rgba(88, 88, 88, 0.562) ;
-        color: #00cece ;
-        border: 1px solid #00cece;
+        color: rgb(80, 156, 255) ;
+        border: 1px solid rgb(80, 156, 255);
     }
 }
 .dropdown{
@@ -25,17 +25,17 @@ body{
     }
 }
 .logo_normal{
-    border: 1px solid #00cece;
+    border: 1px solid rgb(80, 156, 255);
     &:hover{
         transform: scale(1.3);
-        box-shadow: 2px 2px 2px #00cece;
+        box-shadow: 2px 2px 2px rgb(80, 156, 255);
     }
 }    
 .lateral > .ofdark{
     background-color: #eeeeee;
     color: black;
     h2,h3{
-        color: #00cece;
+        color: rgb(80, 156, 255);
     }
 }
 .title_card_normal{
@@ -61,28 +61,28 @@ body{
     margin-bottom: 5em;
 
     .swiper-button-next,.swiper-button-prev{
-        color: #00cece;
+        color: rgb(80, 156, 255);
      }
 
      .swiper-slide img{
-        border: 1px solid #00cece;
+        border: 1px solid rgb(80, 156, 255);
         transition:ease-in-out 0.6s;
       
      }
      .swiper_title{
-         color: white;
+         color: rgb(80, 156, 255);
      }
 }
     .card__sobre{
         .card_sobre{
             .card-title{
-                    color: #00cece;
+                    color: rgb(80, 156, 255);
             }
         }
     }
     .dado_swiper{
         img{
-            border: 1px solid #00cece;
+            border: 1px solid rgb(80, 156, 255);
         }
     }
     footer{
@@ -100,14 +100,8 @@ body{
         }
     }
     .contate_nos{
-        background-image: linear-gradient(360deg, white,#00cece);
+        background-image: linear-gradient(360deg, white,rgb(80, 156, 255));
         background-repeat: no-repeat;
         background-position: center;
-        .div_ajuda{
-            &:hover{
-                font-style: italic;
-                font-weight: bold;
-                color: white;
-            }
-        }
+        
     }
