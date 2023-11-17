@@ -24,6 +24,7 @@
  }
  &_text{
    position: absolute;
+   text-align: center;
    top: 0;
    color: white;
    .lateral{
@@ -45,4 +46,35 @@
       flex-wrap: wrap;
    }
  }
+}
+
+.film1{
+   padding-top: 2em;
+   width: 100%;
+   max-width: 220vh;
+   height: 70vh;
+   position: relative;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   .film_video1{
+      width: 100%;
+      max-width: 150vh;
+      height: 60vh;
+      margin: 0 auto;
+      opacity: 0.6;
+   }
+   
+   .film_text1{
+      position: absolute;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .film_title1{
+      padding-top: 10px;
+      color: rgb(80, 156, 255);
+    }
 }
