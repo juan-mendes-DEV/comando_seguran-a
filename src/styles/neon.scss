@@ -1,0 +1,55 @@
+.neon{
+    text-shadow: 0 0 5px rgb(149, 195, 255), 0 0 15px rgb(149, 195, 255), 0 0 25px rgb(149, 195, 255),
+    0 0 20px rgb(149, 195, 255), 0 0 30px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255);
+    color: rgb(226, 239, 255); 
+    text-align: center;
+    animation: blink 12s infinite;
+  }
+  @-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: black;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        color: rgb(226, 239, 255); 
+      text-shadow: 0 0 5px rgb(149, 195, 255), 0 0 15px rgb(149, 195, 255), 0 0 25px rgb(149, 195, 255),
+        0 0 20px rgb(149, 195, 255), 0 0 30px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255); 
+    
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: black;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        color: rgb(226, 239, 255); 
+      text-shadow: 0 0 5px rgb(149, 195, 255), 0 0 15px rgb(149, 195, 255), 0 0 25px rgb(149, 195, 255),
+        0 0 20px rgb(149, 195, 255), 0 0 30px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255), 0 0 80px rgb(80, 156, 255); 
+    }
+  }
+  
+
+
+ 
